@@ -6,7 +6,7 @@ L'enjeux de ce défi est de créer un formulaire constitué de plusieurs champs.
 
 ## Exercice
 
-Pour cet exercice vous devrez donc intégrer 4 champs input d'un formulaire Html, ainsi qu'un bouton qui vérifie les champs et effectue un `console.log()` de ces valeurs.
+Pour cet exercice vous devrez donc intégrer 6 champs input d'un formulaire Html, ainsi qu'un bouton qui vérifie les champs et effectue un `console.log()` de ces valeurs.
 Voici les différents champs à intégrer :
 
 ##### Name
@@ -25,6 +25,13 @@ Ce champ est un input de password, il doit renvoyé le password sous forme de ha
 
 Ce champ est un input de date, la date renvoyé doit être au format ISO.
 
+##### Actif
+
+Ce champ est une checkbox, il renvoi un boolean.
+
+##### Country
+Ce champ est une liste déroulante. Permettre le choix parmi 3 ou 4 pays max
+
 
 Une fois le formulaire remplis, lorsque je clique sur le bouton, le `console.log()` devrait ressembler à ça :
 ```json
@@ -32,7 +39,9 @@ Une fois le formulaire remplis, lorsque je clique sur le bouton, le `console.log
   "name": "Arthur",
   "email": "donotreply@karos.fr",
   "password": "3ceb0488d35fd725c0e643d1d58a965b",
-  "date": "2018-08-08T12:57:21.343Z"
+  "date": "2018-08-08T12:57:21.343Z",
+  "actif": true,
+  "country": "france"
 }
 ```
 
