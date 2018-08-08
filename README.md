@@ -52,4 +52,4 @@ Pour vous aidez dans l'exercice je vous conseils de vous appuyer sur ces liens :
 
 [Ux Design For Form](https://uxdesign.cc/design-better-forms-96fadca0f49c)
 
-###### Faites vous plaisir et n'y passer pas trop de temps non plus 🙂 !
+###### Faites vous plaisir et n'y passez pas trop de temps non plus 🙂 !
