@@ -1,17 +1,17 @@
-# Karos Form Challenge
+# Karos Form Exercise
 
-Le karos form challenge est un petit exercise d'intégration d'un formulaire en Vue.js. Ce repo servira de template pour la suite de l'exercice.
-L'enjeux de ce défi est de créer un formulaire constitué de plusieurs champs. Il doit répondre à une problèmatique technique ainsi qu'à des critères d'expérience utilisateurs .
+Le Caros Form Exercise est un petit exercice d'intégration d'un formulaire en Vue.js. Ce repo servira de template pour la suite de l'exercice.
+L'enjeux de ce défi est de créer un formulaire constitué de plusieurs champs. Il doit répondre aux contraintes techniques listé plus bas, mais il doit aussi faire preuve de créativité en matière d'Expérience utilisateur.
 
 
 ## Exercice
 
-Pour cet exercice vous devrez donc intégrer 4 champs input d'un formulaire Html, ainsi qu'un boutton qui vérifie les champs et qui effectue un `console.log()` ses valeurs.
-Voici les différents champs à intégré :
+Pour cet exercice vous devrez donc intégrer 4 champs input d'un formulaire Html, ainsi qu'un bouton qui vérifie les champs et effectue un `console.log()` de ces valeurs.
+Voici les différents champs à intégrer :
 
 ##### Name
 
-Ce champ est un input de text, il ne doit pas dépassé 30 caractères.
+Ce champ est un input de text, il ne doit pas dépasser 30 caractères.
 
 ##### Email
 
@@ -19,27 +19,30 @@ Ce champ est un input de text, il contient une adresse email. Cette adresse doit
 
 ##### Password
 
-Ce champ est un input de password, il doit renvoyé le password sous form de hashcode
+Ce champ est un input de password, il doit renvoyé le password sous forme de hashcode au format MD5
 
 ##### Date
 
-Ce champ est un input de date
+Ce champ est un input de date, la date renvoyé doit être au format ISO.
 
 
-Une fois le formulaire remplis, lorsque je clique sur le boutton, le log devrait ressembler à ça :
+Une fois le formulaire remplis, lorsque je clique sur le bouton, le `console.log()` devrait ressembler à ça :
 ```json
 {
   "name": "Arthur",
   "email": "donotreply@karos.fr",
-  "password": 968540916,
-  "date": "Wed Aug 08 2018"
+  "password": "3ceb0488d35fd725c0e643d1d58a965b",
+  "date": "2018-08-08T12:57:21.343Z"
 }
 ```
 
 ### Bonus
 
-Affiché l'output du `console.log()` directement sur la page mis en forme dans un élément HTML.
+Afficher l'output du `console.log()` directement sur la page mis en forme dans un élément HTML.
 
+### Bonus 2
+
+Ajouter une config webpack au template.
 
 ## Ressources:
 
@@ -48,3 +51,5 @@ Pour vous aidez dans l'exercice je vous conseils de vous appuyer sur ces liens :
 [Vue.js](https://vuejs.org/v2/guide/)
 
 [Ux Design For Form](https://uxdesign.cc/design-better-forms-96fadca0f49c)
+
+###### Faites vous plaisir et n'y passer pas trop de temps non plus 🙂 !
