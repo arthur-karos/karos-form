@@ -1,7 +1,7 @@
 # Karos Form Exercise
 
 Le Karos Form Exercise est un petit exercice d'intégration d'un formulaire en Vue.js. Ce repo servira de template pour la suite de l'exercice.
-L'enjeux de ce défi est de créer un formulaire constitué de plusieurs champs. Il doit répondre aux contraintes techniques listé plus bas, mais il doit aussi faire preuve de créativité en matière d'Expérience utilisateur.
+L'enjeux de ce défi est de créer un formulaire constitué de plusieurs champs. Il doit répondre aux contraintes techniques listé plus bas, mais il doit aussi faire preuve de créativité en matière d'expérience utilisateur.
 
 
 ## Exercice
